@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "SimplyPaxels"
+      "simplypaxels.Main"
     ]
   },
 
