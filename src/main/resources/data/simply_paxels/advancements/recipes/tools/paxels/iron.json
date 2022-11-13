@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "simply_paxels:paxels/iron"
+    ]
+  },
+  "criteria": {
+    "paxels/iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:iron_shovel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "simply_paxels:paxels/iron"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "paxels/iron",
+      "has_the_recipe"
+    ]
+  ]
+}

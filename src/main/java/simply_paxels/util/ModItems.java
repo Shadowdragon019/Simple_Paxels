@@ -1,4 +1,4 @@
-package simplypaxels.util;
+package simply_paxels.util;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.Settings;
@@ -7,8 +7,8 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import simplypaxels.Main;
-import simplypaxels.items.bases.PaxelItem;
+import simply_paxels.Main;
+import simply_paxels.items.bases.PaxelItem;
 
 
 public class ModItems {

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "paxels",
+  "pattern": [
+    "aps",
+    " r ",
+    " r "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:golden_axe"
+    },
+    "p": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "s": {
+      "item": "minecraft:golden_shovel"
+    },
+    "r": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "simply_paxels:golden_paxel"
+  }
+}

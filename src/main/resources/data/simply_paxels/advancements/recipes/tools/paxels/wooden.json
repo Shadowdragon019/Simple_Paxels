@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "simply_paxels:paxels/wooden"
+    ]
+  },
+  "criteria": {
+    "paxels/wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "simply_paxels:paxels/wooden"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "paxels/wooden",
+      "has_the_recipe"
+    ]
+  ]
+}

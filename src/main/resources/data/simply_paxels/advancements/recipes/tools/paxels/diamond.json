@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "simply_paxels:paxels/diamond"
+    ]
+  },
+  "criteria": {
+    "paxels/diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_axe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_shovel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "simply_paxels:paxels/diamond"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "paxels/diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

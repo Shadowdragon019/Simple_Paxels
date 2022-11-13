@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "simplypaxels.Main"
+      "simply_paxels.Main"
+    ],
+    "fabric-datagen": [
+      "simply_paxels.util.DataGen"
     ]
   },
 

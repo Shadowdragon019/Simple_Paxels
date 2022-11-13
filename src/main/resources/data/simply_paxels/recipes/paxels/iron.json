@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "paxels",
+  "pattern": [
+    "aps",
+    " r ",
+    " r "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_axe"
+    },
+    "p": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "s": {
+      "item": "minecraft:iron_shovel"
+    },
+    "r": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "simply_paxels:iron_paxel"
+  }
+}

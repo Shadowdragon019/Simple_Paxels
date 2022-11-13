@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-      
+    "simply_paxels:wooden_paxel",
+    "simply_paxels:stone_paxel",
+    "simply_paxels:golden_paxel",
+    "simply_paxels:iron_paxel",
+    "simply_paxels:diamond_paxel",
+    "simply_paxels:netherite_paxel"
   ]
 }
