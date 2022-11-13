@@ -9,11 +9,12 @@
     "Socially Anxious Dragon"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://modrinth.com/mod/simply_paxels",
+    "sources": "https://github.com/Shadowdragon019/Simple_Paxels",
+    "issues": "https://github.com/Shadowdragon019/Simple_Paxels/issues"
   },
 
-  "license": "",
+  "license": "MIT",
   "icon": "assets/simply_paxels/icon.png",
 
   "environment": "*",
@@ -34,5 +35,13 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/YYM3NYssSJ"
+      }
+    }
   }
 }
