@@ -3,7 +3,7 @@
   "id": "simply_paxels",
   "version": "${version}",
 
-  "name": "Crouching's Utilities",
+  "name": "Simply Paxels",
   "description": "Adds paxels, nothing else",
   "authors": [
     "Socially Anxious Dragon"
@@ -15,7 +15,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/simply_paxels/icon.png",
+  "icon": "assets/simply_paxels/icon_alpha.png",
 
   "environment": "*",
   "entrypoints": {
